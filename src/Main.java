@@ -77,7 +77,7 @@ class Scratch { public static void main(String[] args) {
         System.out.println("Стало сотрудников - " + becameEmployees);
 
         var hoursForAllEmployees = generallyHours / becameEmployees;
-        System.out.println("Если в компании работает - " + becameEmployees + " человека, то всего " + hoursForAllEmployees + " часа работы может быть поделено между сотрудниками" );
+        System.out.println("Если в компании работает - " + becameEmployees + " человека, то всего " + hoursForAllEmployees + " часа работы может быть поделено между сотрудниками." );
 
     }
         }
