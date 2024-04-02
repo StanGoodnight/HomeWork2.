@@ -1,4 +1,4 @@
-class Scratch { public static void main(String[] args) {
+ class Scratch { public static void main(String[] args) {
 
         var dog = 8;
         System.out.println("Собак - " + dog);
@@ -76,7 +76,7 @@ class Scratch { public static void main(String[] args) {
         var becameEmployees = totalEmployeesInTheCompany + employeesCameToTheCompany;
         System.out.println("Стало сотрудников - " + becameEmployees);
 
-        var hoursForAllEmployees = generallyHours / becameEmployees;
+        var hoursForAllEmployees = hourPerEmployee * becameEmployees;
         System.out.println("Если в компании работает - " + becameEmployees + " человека, то всего " + hoursForAllEmployees + " часа работы может быть поделено между сотрудниками." );
 
     }
